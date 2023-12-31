@@ -1,0 +1,58 @@
+macro "macro"
+	elem 
+		name = "Center+REP"
+		command = ".center"
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "South+REP"
+		command = ".south"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 291,0
+		size = 700x520
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		is-transparent = true
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Lukaster Nazhralsa bloh"
+		titlebar = false
+		statusbar = false
+		alpha = 204
+		macro = "macro"
+		menu = "menu"
+		outer-size = 714x554
+		inner-size = 700x520
+	elem "browser1"
+		type = BROWSER
+		pos = 0,0
+		size = 720x520
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = ""
+
